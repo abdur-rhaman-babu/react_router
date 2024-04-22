@@ -1,0 +1,30 @@
+.heading{
+    text-align:center;
+    font-size:2rem;
+    margin:1rem 0;
+    font-weight: 700;
+}
+.card{
+    border: 2px solid yellow;
+    background-color:#f5f6fa;
+    border-radius:.5rem;
+    padding:.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card button{
+    margin:.5rem 0;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1rem;
+}
+
+.card-details{
+    border: 2px solid yellow;
+    background-color:#0097e6;
+    border-radius:.5rem;
+    padding:.5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color:#fff;
+}
